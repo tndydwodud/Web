@@ -1,0 +1,76 @@
+h3 {
+	background: black;
+	color: white;
+}
+
+h3:first-letter{
+	color: #F39C12;
+}
+
+li:hover{
+	background: #1F618D;
+	color: white;
+}
+
+
+
+.p1 {
+	text-indent: 5px;
+}
+
+#u1 {
+	background: black;
+	color: white;
+}
+
+#u1 ul li{
+	display: inline;
+	list-style-type: none;
+	padding: 15px;
+	margin: 0px;
+	padding: 0px 15px;
+
+}
+
+table{
+	text-align: center;
+}
+
+thead, tfoot{
+	background: #424949;
+	color: #F4D03F;
+}
+
+
+tbody tr:hover{
+	background: #A93226;
+	color: white;
+}
+
+tr:nth-child(even) {
+	background: #D5F5E3
+}
+
+
+td, th{
+	text-align: left;
+	padding: 10px;
+	height: 20px;
+	width: 100px;
+}
+
+strong{
+	transition: font-size 2s;	
+}
+strong:hover{
+	font-size: 200%;
+}
+
+input[type=text]:hover{
+	background: black;
+	color: white;
+}
+
+input[type=text]:hover{
+	font-size: 200%;
+}
